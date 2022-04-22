@@ -1,0 +1,51 @@
+name: network-graph
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2022.3.29=hecd8cb5_1
+  - certifi=2021.10.8=py39hecd8cb5_2
+  - libcxx=12.0.0=h2f01273_0
+  - libffi=3.3=hb1e8313_2
+  - ncurses=6.3=hca72f7f_2
+  - openssl=1.1.1n=hca72f7f_0
+  - pip=21.2.4=py39hecd8cb5_0
+  - python=3.9.12=hdfd78df_0
+  - readline=8.1.2=hca72f7f_1
+  - setuptools=61.2.0=py39hecd8cb5_0
+  - sqlite=3.38.2=h707629a_0
+  - tk=8.6.11=h7bc2e8c_0
+  - tzdata=2022a=hda174b7_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.12=h4dc903c_1
+  - pip:
+    - altgraph==0.17.2
+    - brotli==1.0.9
+    - click==8.1.2
+    - dash==2.3.1
+    - dash-bootstrap-components==0.13.1
+    - dash-core-components==2.0.0
+    - dash-html-components==2.0.0
+    - dash-table==5.0.0
+    - dash-table-experiments==0.6.0
+    - flask==2.1.1
+    - flask-compress==1.11
+    - importlib-metadata==4.11.3
+    - itsdangerous==2.1.2
+    - jaal==0.1.2
+    - jinja2==3.1.1
+    - macholib==1.16
+    - markupsafe==2.1.1
+    - numpy==1.22.3
+    - pandas==1.4.2
+    - plotly==5.7.0
+    - pyinstaller==5.0
+    - pyinstaller-hooks-contrib==2022.4
+    - python-dateutil==2.8.2
+    - pytz==2022.1
+    - six==1.16.0
+    - tenacity==8.0.1
+    - visdcc==0.0.50
+    - werkzeug==2.1.1
+    - zipp==3.8.0
+prefix: /opt/anaconda3/envs/network-graph
